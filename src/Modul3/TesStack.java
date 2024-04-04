@@ -24,6 +24,6 @@ public class TesStack {
         tes.pop();
 
         System.out.println("Animals: " + tes);
-        System.out.println("Position of Kuda: " + tes.search("Bebek"));
+        System.out.println("Position of Kuda: " + tes.search("Kuda"));
     }
 }
