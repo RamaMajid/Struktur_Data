@@ -11,10 +11,10 @@ public class Main {
 
         while (true){
             System.out.print("Masukkan Item: ");
-            String namaItem = scan.nextLine();
+            String item1 = scan.nextLine();
 
             System.out.print("Masukkan Harga: ");
-            int hargaItem = scan.nextInt();
+            int item2 = scan.nextInt();
             scan.nextLine();
 
             System.out.println("Pilih Kategori: (1. MAKANAN, 2. MINUMAN, 3. DESSERT) ");
@@ -37,7 +37,7 @@ public class Main {
                     break;
             }
 
-            Barang<String, Integer> barang = new Barang<>(namaItem, hargaItem, kategori);
+            Barang<String, Integer> barang = new Barang<>(item1, item2, kategori);
             daftarItem.add(barang);
 
             System.out.print("Apakah Anda ingin menambahkan barang lagi? (Y/T): ");
